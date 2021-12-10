@@ -6,8 +6,8 @@ nav_order: 4
 ---
 
 <script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
-        issue-term="pathname"
+        repo="postsent.github.io"
+        issue-term="url"
         theme="github-light"
         crossorigin="anonymous"
         async>
