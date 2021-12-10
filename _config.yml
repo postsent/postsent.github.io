@@ -1,3 +1,4 @@
 title: "Jerry's blog"
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
+logo: "./imgs/monkey.png"
