@@ -1,8 +1,21 @@
 ---
 permalink: /about/
 title: "About"
+layout: tags
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+This is Jerry'g Blog.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+This is simple docs based website host on the github page.
+All discussion is based on the last updated time.
+Why blog? Learn, understand, reflects.
+Below is a list of helpful links for making this websites:
+* Jekyll Installation Tutorial: https://jekyllrb.com/docs/installation/windows/
+* Diffeerent themes selection: https://jekyllthemes.io/theme/just-the-docs
+
+format page: https://github.com/pmarsceill/just-the-docs/issues/431
+change layout: https://github.com/pmarsceill/just-the-docs/blob/e8424986370bef104e680e1443a83e475d2fead7/docs/utilities/layout.md
+
+bundle exec jekyll serve --force_polling
+
+jekyll build --verbose
