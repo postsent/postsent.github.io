@@ -8,5 +8,5 @@ main:
   - title: "About"
     url: /about/
   - title: "CN/中文"
-    url: "http://127.0.0.1:4001"
+    url: "http://postsent.github.io"
     description: "转换成中文"
