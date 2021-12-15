@@ -8,6 +8,7 @@ tags:
 toc: true
 toc_sticky: true
 ---
+
 # references post
 Different examples/edge cases's code see [minimal repo docs folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 For actual output, search in the [quick start](https://mmistakes.github.io/minimal-mistakes/) with the corresponding title.
@@ -87,7 +88,7 @@ code example
 
 [fortierq](https://fortierq.github.io/python-import/)
 
-# archive page design
+# Archive page design
 [ultimate](https://talk.jekyllrb.com/t/displaying-archives-design-ideas/2330)
 [ok](https://esthermakes.tech/blog/2020/04/09/creating-category-pages-with-jekyll/)
 
@@ -107,59 +108,57 @@ code example
     //   text-decoration: none;
     //   border-bottom: 1px solid $border-color;
     // }
-    a {
-      // display: inline-block;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      height: 24px;
-      line-height: 24px;
-      position: relative;
-      margin: 0 16px 8px 0;
-      padding: 0 10px 0 12px;
-      background: rgb(252, 162, 77);    
-      -webkit-border-bottom-right-radius: 3px;    
-      border-bottom-right-radius: 3px;
-      -webkit-border-top-right-radius: 3px;    
-      border-top-right-radius: 3px;
-      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      color: #fff;
-      font-size: 12px;
-      font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-      text-decoration: none;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      font-weight: bold;
+  a {
+    // display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    margin: 0 16px 8px 0;
+    padding: 0 10px 0 12px;
+    // background: #23f368;
+    background-image:url('../../assets/images/leaf.jpg'); // background color from image
+    // Below make the corner rounded instead of sharpe
+    -webkit-border-bottom-right-radius: 3px;    
+    border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;    
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;    
+    border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;    
+    border-top-left-radius: 3px;
+    //
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    color: rgb(12, 0, 177); // tag text color
+    font-size: 12px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    text-indent: 2px; // move text to right a bit
+    font-weight: bold;
+  }
+  // below  decorate the hole in the tag
+  a:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 3px; // tag's hole position to left
+    float: left;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
     }
-    a:before {
-      content: "";
-      position: absolute;
-      top:0;
-      left: -12px;
-      width: 0;
-      height: 0;
-      border-color: transparent #fca24d transparent transparent;
-      border-style: solid;
-      border-width: 12px 12px 12px 0;  
-      }
-  
-    a:after {
-      content: "";
-      position: absolute;
-      top: 10px;
-      left: 1px;
-      float: left;
-      width: 5px;
-      height: 5px;
-      -webkit-border-radius: 50%;
-      border-radius: 50%;
-      background: #fff;
-      -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
-      box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
-      }
+  }
 ```
 # Simple language switcher - text form
 ```html
@@ -167,4 +166,24 @@ code example
 <span class="page__meta-sep"></span>
     {% assign current_url = page.url %}
     <a href="http://localhost:4000/cn{{ current_url }}" style="color:#FF0000;">CN/中文</a>
+```
+# other minor
+Remove toc border
+```scss
+// location: _sass\minimal-mistakes\_navigation.scss
+.toc {
+  font-family: $sans-serif-narrow;
+  color: $gray;
+  background-color: $background-color;
+  // border: 1px solid $border-color;
+  // border-radius: $border-radius;
+  border: none !important;
+```
+Add top padding between the page meta e.g. reading time in a post to the above title
+
+```scss
+// location: _sass\minimal-mistakes\_page_.scss
+.page__meta {
+    margin-top: 2em;
+    padding-top: 10px;
 ```

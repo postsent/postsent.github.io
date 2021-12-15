@@ -15,7 +15,3 @@ Below is a list of helpful links for making this websites:
 
 format page: https://github.com/pmarsceill/just-the-docs/issues/431
 change layout: https://github.com/pmarsceill/just-the-docs/blob/e8424986370bef104e680e1443a83e475d2fead7/docs/utilities/layout.md
-
-bundle exec jekyll serve --force_polling
-
-jekyll build --verbose

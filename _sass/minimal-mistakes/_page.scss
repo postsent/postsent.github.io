@@ -287,6 +287,7 @@
   
   .page__meta {
     margin-top: 2em;
+    padding-top: 8px;
     color: $muted-text-color;
     font-family: $sans-serif;
     font-size: $type-size-6;
@@ -410,37 +411,46 @@
       position: relative;
       margin: 0 16px 8px 0;
       padding: 0 10px 0 12px;
-      background: rgb(252, 162, 77);    
+      // background: #23f368;
+      background-image:url('../../assets/images/leaf.jpg'); // background color from image
+      // Below make the corner rounded instead of sharpe
       -webkit-border-bottom-right-radius: 3px;    
       border-bottom-right-radius: 3px;
       -webkit-border-top-right-radius: 3px;    
       border-top-right-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;    
+      border-bottom-left-radius: 3px;
+      -webkit-border-top-left-radius: 3px;    
+      border-top-left-radius: 3px;
+      //
       -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
       box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      color: #fff;
+      color: rgb(12, 0, 177); // tag text color
       font-size: 12px;
       font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
       text-decoration: none;
       text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      text-indent: 2px; // move text to right a bit
       font-weight: bold;
     }
-    a:before {
-      content: "";
-      position: absolute;
-      top:0;
-      left: -12px;
-      width: 0;
-      height: 0;
-      border-color: transparent #fca24d transparent transparent;
-      border-style: solid;
-      border-width: 12px 12px 12px 0;        
-      }
+    // a:before {
+    //   content: "";
+    //   position: absolute;
+    //   top:0;
+    //   left: -12px;
+    //   width: 0;
+    //   height: 0;
+    //   // border-color: transparent #85f7ab transparent transparent;
+    //   border-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt64iCC97bcpJqJlHBl56MKFGHCUfOSZSeeUiRCxTavSf9Qvq0wkfFYuSdiszxWHdhVMc&usqp=CAU');
+    //   // border-style: solid;
+    //   // border-width: 12px 12px 12px 0;        
+    //   }
   
     a:after {
       content: "";
       position: absolute;
       top: 10px;
-      left: 1px;
+      left: 3px; // tag's hole position to left
       float: left;
       width: 5px;
       height: 5px;

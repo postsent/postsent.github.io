@@ -18,6 +18,8 @@ The pros is little dependency between two language versino of the websites, e.g.
 A lot less complexity compared with current approach, see the disucssion in the github issues in the minimal mistake github page. E.g. If use third-party plugin - multi-language Jeykll, currently is not supported by the github page due to security.
 Cons: The method is navie.
 3. Change the locale (language setting) depends on chinese or english.  
+
+After some days of struggling in incoperating the teXt-theme(simple, clean and modern lookng) archive page into this theme(well-maintain, cross-platform e.g. great mobile support e.g. when small screen the toc is placed on the top of the page). To see how well-maintain, check number of issues opened in a GitHub page.
 # Edge cases
 Long TOC title.
 Long category title in category page.
