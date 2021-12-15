@@ -3,11 +3,9 @@
 title: "My experience so far with Jukyell"
 date: 2021-12-12
 categories:
-  - blog
+  - 博客
 tags:
   - Jekyll
-toc: true
-toc_sticky: true
 ---
 
 # Progress
@@ -20,6 +18,10 @@ Cons: The method is navie.
 3. Change the locale (language setting) depends on chinese or english.  
 
 After some days of struggling in incoperating the teXt-theme(simple, clean and modern lookng) archive page into this theme(well-maintain, cross-platform e.g. great mobile support e.g. when small screen the toc is placed on the top of the page). To see how well-maintain, check number of issues opened in a GitHub page.
+
+2021-12-15:  
+Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
+
 # Edge cases
 Long TOC title.
 Long category title in category page.

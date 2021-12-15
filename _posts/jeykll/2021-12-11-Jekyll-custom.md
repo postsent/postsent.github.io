@@ -9,10 +9,18 @@ toc: true
 toc_sticky: true
 ---
 
-# references post
+# References post
 Different examples/edge cases's code see [minimal repo docs folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 For actual output, search in the [quick start](https://mmistakes.github.io/minimal-mistakes/) with the corresponding title.
+
 E.g [header image code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_posts/2012-03-15-layout-header-image-text-readability.md) with [header image visual output](https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/)
+# Notes
+## Header image
+the path for files in the _{folderName} those with underscore, then in the meta yml, the header image path is always: ``./assets/images/lost-function.png`` i.e. starting from the root folder.
+## Excerpt
+Excerpt (the text display as a preview in e.g. the post by year page) if defined, will override the tagline (the text display in the overlay image under the title). 
+
+[Notebook layout](https://fortierq.github.io/nb/svm/)
 # Font size
 [global font size depends on screen width](https://github.com/mmistakes/minimal-mistakes/issues/1043)
 ```scss
@@ -166,6 +174,52 @@ code example
 <span class="page__meta-sep"></span>
     {% assign current_url = page.url %}
     <a href="http://localhost:4000/cn{{ current_url }}" style="color:#FF0000;">CN/中文</a>
+```
+## Automated translation for yml file
+Below is applied to _config.yml
+```py
+"""
+https://stackoverflow.com/questions/7255885/save-dump-a-yaml-file-with-comments-in-pyyaml/27103244
+
+Possible improvement for below: merge two yml file
+https://stackoverflow.com/questions/58500491/merge-yaml-files-with-overriding-values-in-list-elements
+"""
+import sys
+import ruamel.yaml
+
+def changes(c):
+    c['locale'] = 'zh'
+    c['title'] = 'Jerry的博客'
+    c['description'] = 'Jerry的博客 - Jekyll主题'
+    c['baseurl'] = '/cn'
+    c['repository'] = 'postsent/cn'
+    c['masthead_title'] = 'Jerry的博客'
+    a = c['author']
+    a['location'] = '悉尼/深圳'
+    d = c['defaults']
+    d[0]['values']['toc_label'] = '目录'
+    
+with open("original.yml", "r") as stream:
+    
+    yaml = ruamel.yaml.YAML()  # defaults to round-trip if no parameters given
+    code = yaml.load(stream)
+    changes(code)
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    with open("new.yml", "w") as f:
+        yaml.dump(code, f)
+```
+# Apply to all by specifing paths in config.yml
+```yml
+defaults:
+- scope:
+      path: '_posts/ml' # this is the folder that I want to apply the same header images to 
+      type: posts
+  values:
+    layout: single
+    author_profile: true
+    header:
+      overlay_image: "./assets/images/ai.jpg"
+      caption: 'Photo credit: [**winxtech**](https://winxtech.com/machine-learning-services)'
 ```
 # other minor
 Remove toc border
