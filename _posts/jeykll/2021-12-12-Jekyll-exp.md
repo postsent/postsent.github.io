@@ -21,7 +21,7 @@ After some days of struggling in incoperating the teXt-theme(simple, clean and m
 
 2021-12-15:  
 Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
-
+Just realise could have update the gitignore and then keep on copy instead of one for remote one for local...
 # Edge cases
 Long TOC title.
 Long category title in category page.
