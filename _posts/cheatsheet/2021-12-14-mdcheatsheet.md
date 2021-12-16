@@ -34,3 +34,58 @@ toc_sticky: true
 | ------- | ------ | --------------------------------- |  
 | Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |  
 | Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |  
+# Emoji
+[github Link](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
+[gitlab link](https://github.com/yodamad/gitlab-emoji)
+> :warning: **If you are using mobile browser**: Be very careful here!
+
+# Hidden list
+```html
+<details>
+<summary markdown="span">Click to expand/hide</summary>
+123
+</details>
+```
+<details>
+<summary markdown="span">Click to expand/hide</summary>
+123
+</details>
+
+# Folder structure
+```
+├── 1
+│   ├── 2
+|   |   ├──3
+|   |   |   ├──4
+```
+
+# Minor
+
+## Newline
+```html
+<br />
+```
+
+# Jeykll 
+# Code snippet in Collispable section
+```html
+<details>
+<summary markdown="span" style="color:blue;">Code</summary>
+
+{% highlight python %}
+print("hello world")
+{% endhighlight %}
+</details>
+```
+
+<details>
+<summary markdown="span" style="color:blue;">Code</summary>
+
+{% highlight python %}
+print("hello world")
+{% endhighlight %}
+</details>
+
+
+
+

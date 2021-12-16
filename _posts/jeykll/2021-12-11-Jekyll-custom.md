@@ -221,6 +221,9 @@ defaults:
       overlay_image: "./assets/images/ai.jpg"
       caption: 'Photo credit: [**winxtech**](https://winxtech.com/machine-learning-services)'
 ```
+# Emoji
+Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially supported on Github Page
+
 # other minor
 Remove toc border
 ```scss
