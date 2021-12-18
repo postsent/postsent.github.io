@@ -68,7 +68,12 @@ Notes:
   }
   // change the width for .page__related as well
 ```
+After this, if you want to set up a page like [docs](https://mmistakes.github.io/minimal-mistakes/docs/collections/) then you need to create a different layout html for the page format (otherwise, the sidebar and the page will overlap) since the above 94% width is fixed unlike the previous setting which taking into account of the sidebar width.   
 
+To fix this, create a new html called e.g. ``page_sidebar.html``in _layout by copying the single.html. Then change the ``class="page`` to ``class="page_sidebar`` and decorate this new class at ``_page.scss`` with ``.page_sidebar``, similar to above, but a different class name and with the old setting which is ``width: calc(100% - #{$right-sidebar-width});``. 
+
+Then applies this ``layout: page_sidebar`` to all the collection e.g. _docs for the case in the official theme docs.  
+Don't forget to add the collection in the ``_config.yml`` as mentioned in [Working with Collections](https://mmistakes.github.io/minimal-mistakes/docs/collections/) with the rest follow the [sidebar](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars)
 # Add favicon.con in the tab & masthead
 change ``logo`` param in the _config.yml will do for the masthread
 TODO: insert result image here (top-left appears img)

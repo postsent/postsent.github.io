@@ -274,7 +274,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+# Collections
+collections:
+  notebooks:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # everything in _posts folders
@@ -299,6 +303,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _notebook
+  - scope:
+      path: ""
+      type: notebooks
+    values:
+      layout: single_sidebar
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "notebooks"
 
 date_format: "%Y-%m-%d"    
 
