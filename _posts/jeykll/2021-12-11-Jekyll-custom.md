@@ -180,6 +180,12 @@ code example
     {% assign current_url = page.url %}
     <a href="http://localhost:4000/cn{{ current_url }}" style="color:#FF0000;">CN/中文</a>
 ```
+Also, in the ``_config.yml``, I chaneg the url format to below which is simpler than the category/filetitle format since I want to translate the category and if I use category in the url, I have to map each english url to chinese one which takes time, but if use the filename, then I just need to keep the filename the same and add a prefix i.e. ``/en`` or ``/cn`` to switch between langauage.
+```yml
+permalink: /:year/:month/:day/:title/ # /:categories, https://jekyllrb.com/docs/permalinks/
+```
+Also, I set the baseurl to ``/en`` or ``/cn``, just to make sure it does not confuse with other project github page url.
+
 ## Automated translation for yml file
 Below is applied to _config.yml
 ```py
@@ -284,9 +290,9 @@ Add top padding between the page meta e.g. reading time in a post to the above t
     margin-top: 2em;
     padding-top: 10px;
 ```
-## code snippet color
+## Change code snippet color
 
-[different style](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/)
+[Different style](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/)
 ```scss
 // location: assets\css\main.scss
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
