@@ -243,6 +243,7 @@ Note: main branch to store source code, gh-pages for what's published
 ## Source code
 Configure you main branch as below.
 Fill in the ``_config`` & ``_toc`` as above example (replaced with ur file structure).
+More details can be found in the official docs e.g. [toc](https://jupyterbook.org/customize/toc.html)
 Source code structure:
 ```
 ├── _config.yml
