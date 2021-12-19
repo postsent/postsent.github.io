@@ -261,8 +261,11 @@ Copy the content of the generated ``_build/html`` folder and place it to root of
 
 Now, add a link from the jeykll page to this notebook page and it's done
 
+To preview the html result, see [preview](https://jupyterbook.org/start/build.html)
 # Minor
-Remove toc border
+
+## Remove toc border
+
 ```scss
 // location: _sass\minimal-mistakes\_navigation.scss
 .toc {
@@ -280,4 +283,28 @@ Add top padding between the page meta e.g. reading time in a post to the above t
 .page__meta {
     margin-top: 2em;
     padding-top: 10px;
+```
+## code snippet color
+
+[different style](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/)
+```scss
+// location: assets\css\main.scss
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+$base00: #263238; 
+$base01: #2e3c43;
+$base02: #314549;
+$base03: #546e7a;
+$base04: #b2ccd6;
+$base05: #eeffff;
+$base06: #eeffff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #82aaff;
+$base0e: #c792ea;
+$base0f: #ff5370;
 ```
