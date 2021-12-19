@@ -232,10 +232,35 @@ Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially suppor
 # Display jupyter notebook page
 Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jeykll points to the notebook github page.
 
-
 When install jupyter-book, due to proxy address problem, **do not** enable VPN while ``pip install -U jupyter-book``.
 
-# other minor
+The [official docs](https://jupyterbook.org/start/your-first-book.html) contains a lot of explanantion, below is the simplest version.
+Below reference from the [simple example](https://github.com/executablebooks/quantecon-mini-example/tree/master/mini_book) structure.
+> :notes: **Assume knowledge**: have publish gh-pages before.
+
+Note: main branch to store source code, gh-pages for what's published
+
+## Source code
+Configure you main branch as below.
+Fill in the ``_config`` & ``_toc`` as above example (replaced with ur file structure).
+Source code structure:
+```
+├── _config.yml
+├── _toc.yml
+├── notebooksFolder
+│   ├──notebook1.ipynb
+│   ├──...
+```
+## Compile jupyter book
+``jupyter-book build ursourcecodeFolder``
+
+## gh-pages 
+
+Copy the content of the generated ``_build/html`` folder and place it to root of the gh-pages branch (nothing else is needed) and then add a empty file named: ``.nojekyll``, then push it.
+
+Now, add a link from the jeykll page to this notebook page and it's done
+
+# Minor
 Remove toc border
 ```scss
 // location: _sass\minimal-mistakes\_navigation.scss
