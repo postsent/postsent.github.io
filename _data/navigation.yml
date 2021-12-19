@@ -8,14 +8,14 @@ main:
   - title: "About"
     url: /about/
   - title: "Jupyter Notebook"
-    url: /notebooks/intro/
+    url: "http://postsent.github.io/nb"
   - title: "CN/中文"
     url: "http://postsent.github.io/cn" # myurl
     description: "转换成中文"
 
 notebooks:
   - title: "Machine Learning"
-    url: /notebooks/intro/
+    url: /nb/intro/
     children:
-      - title: "Quick-Start Guide"
-        url: /notebooks/intro/
+      - title: "Examples"
+        url: /nb/ex/

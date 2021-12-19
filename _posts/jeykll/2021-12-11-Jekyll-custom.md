@@ -229,6 +229,12 @@ defaults:
 # Emoji
 Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially supported on Github Page
 
+# Display jupyter notebook page
+Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jeykll points to the notebook github page.
+
+
+When install jupyter-book, due to proxy address problem, **do not** enable VPN while ``pip install -U jupyter-book``.
+
 # other minor
 Remove toc border
 ```scss
