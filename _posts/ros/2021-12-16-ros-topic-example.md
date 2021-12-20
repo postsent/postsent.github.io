@@ -21,7 +21,7 @@ Same Gazebo Environment is used for below examples which is:
 ```bash 
 roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
 ```
-![map](../../assets/images/ros/map.png)
+![map](/assets/images/ros/map.png)
 
 ```bash
 roslaunch turtlebot3_slam turtlebot3_slam.launch
@@ -162,7 +162,7 @@ python3 marker.py
 To see the marker published on Rviz, **Add marker topic** to Rviz by click the add button (see below). 
 > :eyes: **Note**: U can save this rviz config file: File -> save config as, and then later run it by include it in the rviz command
 
-![map](../../assets/images/ros/marker.png)
+![map](/assets/images/ros/marker.png)
 To change marker type to e.g. line instead of point, see [Different marker datatype official docs](http://docs.ros.org/en/api/visualization_msgs/html/msg/Marker.html) which is one example of many ROS datatype.
 # Movebase 
 <details>
@@ -318,7 +318,7 @@ Google will do.
 rqt_image_view
 ```
 Change the topic as below and it feeds the frame received by the camera topic.
-<img src="../../assets/images/ros/image.png" alt="drawing" width="500"/>
+<img src="/assets/images/ros/image.png" alt="drawing" width="500"/>
 
 
 Code example? 
@@ -360,7 +360,7 @@ if __name__=="__main__":
 </details>
 
 Publish a point by clicking the "Publish point" as below.
-![click point](../../assets/images/ros/clickpoint.png)
+![click point](/assets/images/ros/clickpoint.png)
 ```bash
 python3 clickPoint.py
 ```

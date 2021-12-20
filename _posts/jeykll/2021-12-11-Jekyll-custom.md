@@ -16,7 +16,7 @@ For actual output, search in the [quick start](https://mmistakes.github.io/minim
 E.g [header image code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_posts/2012-03-15-layout-header-image-text-readability.md) with [header image visual output](https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/)
 # Notes
 ## Header image
-the path for files in the _{folderName} those with underscore, then in the meta yml, the header image path is always: ``./assets/images/lost-function.png`` i.e. starting from the root folder.
+the path for files in the _{folderName} those with underscore, then the image path is always: ``/assets/images/lost-function.png`` i.e. starting from the root folder.
 ## Excerpt
 Excerpt (the text display as a preview in e.g. the post by year page) if defined, will override the tagline (the text display in the overlay image under the title). 
 
@@ -135,7 +135,7 @@ code example
     margin: 0 16px 8px 0;
     padding: 0 10px 0 12px;
     // background: #23f368;
-    background-image:url('../../assets/images/leaf.jpg'); // background color from image
+    background-image:url('/assets/images/leaf.jpg'); // background color from image
     // Below make the corner rounded instead of sharpe
     -webkit-border-bottom-right-radius: 3px;    
     border-bottom-right-radius: 3px;
