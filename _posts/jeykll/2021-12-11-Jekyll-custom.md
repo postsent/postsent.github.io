@@ -16,7 +16,8 @@ For actual output, search in the [quick start](https://mmistakes.github.io/minim
 E.g [header image code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_posts/2012-03-15-layout-header-image-text-readability.md) with [header image visual output](https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/)
 # Notes
 ## Header image
-the path for files in the _{folderName} those with underscore, then the image path is always: ``/assets/images/lost-function.png`` i.e. starting from the root folder.
+the path for files in the _{folderName} those with underscore, then the image path is always: ``/assets/images/lost-function.png`` i.e. starting from the **root folder**.
+> :eyes: Note that the root level base reference does not work if u add a baseurl e.g. ``/cn``. In the case of base url, use ``{{ site.baseurl }}/assets/images/urimagefileName``
 ## Excerpt
 Excerpt (the text display as a preview in e.g. the post by year page) if defined, will override the tagline (the text display in the overlay image under the title). 
 

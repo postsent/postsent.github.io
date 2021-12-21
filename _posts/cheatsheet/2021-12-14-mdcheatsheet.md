@@ -34,6 +34,7 @@ toc_sticky: true
 | ------- | ------ | --------------------------------- |  
 | Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |  
 | Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |  
+
 # Emoji
 [github Link](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
 [gitlab link](https://github.com/yodamad/gitlab-emoji)
@@ -67,19 +68,23 @@ toc_sticky: true
 ```
 
 # Jeykll 
+
 # Code snippet in Collispable section
+
 ```html
+<!-- note below use the raw tag, to escape the liquid tags see:  https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags-->
 <details>
 <summary markdown="span" style="color:blue;">Code</summary>
-
+{% raw  %}
 {% highlight python %}
 print("hello world")
 {% endhighlight %}
+{% endraw %}
 </details>
 ```
 
 <details>
-<summary markdown="span" style="color:blue;">Code</summary>
+<summary markdown="span" style="color:blue;">Here is the output of above code</summary>
 
 {% highlight python %}
 print("hello world")
