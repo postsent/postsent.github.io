@@ -324,3 +324,7 @@ Follow [jekyll-redirect-from plugin](https://github.com/jekyll/jekyll-redirect-f
 # this allows changes at real time
 bundle exec jekyll serve --force_polling --port 4000
 ```
+
+## Baidu SEO verification
+
+[reference](https://blog.csdn.net/torpidcat/article/details/120222387)
