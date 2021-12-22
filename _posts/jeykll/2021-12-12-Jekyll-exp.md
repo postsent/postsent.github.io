@@ -3,8 +3,6 @@
 title: "My experience so far with Jukyell"
 date: 2021-12-12
 categories:
-  - 博客
-tags:
   - Jekyll
 ---
 

@@ -1,628 +1,161 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SIDEBAR
    ========================================================================== */
 
-   #main {
-    @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    max-width: 100%;
-    -webkit-animation-delay: 0.15s;
-    animation-delay: 0.15s;
+/*
+   Default
+   ========================================================================== */
+
+   .sidebar {
+    @include clearfix();
+    // @include breakpoint(max-width $large) {
+    //   /* fix z-index order of follow links */
+    //   position: relative;
+    //   z-index: 10;
+    //   -webkit-transform: translate3d(0, 0, 0);
+    //   transform: translate3d(0, 0, 0);
+    // }
   
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
-  }
-  
-  body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 100vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  
-  .initial-content,
-  .search-content {
-    flex: 1 0 auto;
-  }
-  
-  .page {
     @include breakpoint($large) {
-      float: right;
-      // width: calc(100% - #{$right-sidebar-width-narrow});
-      width: 94%; // changed
-      padding-right: $right-sidebar-width-narrow;
-    }
-  
-    @include breakpoint($x-large) {
-      // width: calc(100% - #{$right-sidebar-width});
-      width: 94%; // changed
-      padding-right: $right-sidebar-width;
-    }
-  
-    .page__inner-wrap {
       float: left;
-      margin-top: 1em;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      clear: both;
+      width: calc(#{$right-sidebar-width-narrow} - 1em);
+      opacity: 0.75;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
   
-      .page__content,
-      .page__meta,
-      .page__share {
-        position: relative;
-        float: left;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        clear: both;
-      }
-    }
-  }
-  
-  .page_sidebar {
-    @include breakpoint($large) {
-      float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
-      padding-right: $right-sidebar-width-narrow;
-    }
-  
-    @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
-      padding-right: $right-sidebar-width;
-    }
-  
-    .page__inner-wrap {
-      float: left;
-      margin-top: 1em;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      clear: both;
-  
-      .page__content,
-      .page__meta,
-      .page__share {
-        position: relative;
-        float: left;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        clear: both;
-      }
-    }
-  }
-  
-  .page__title {
-    margin-top: 0;
-    line-height: 1;
-  
-    a {
-      color: $text-color;
-      text-decoration: none;
-    }
-  
-    & + .page__meta {
-      margin-top: -0.5em;
-    }
-  }
-  
-  .page__lead {
-    font-family: $global-font-family;
-    font-size: $type-size-4;
-  }
-  
-  .page__content {
-    h2 {
-      padding-bottom: 0.5em;
-      border-bottom: 1px solid $border-color;
-    }
-  
-    h1, h2, h3, h4, h5, h6 {
-      .header-link {
-        position: relative;
-        left: 0.5em;
-        opacity: 0;
-        font-size: 0.8em;
-        -webkit-transition: opacity 0.2s ease-in-out 0.1s;
-        -moz-transition: opacity 0.2s ease-in-out 0.1s;
-        -o-transition: opacity 0.2s ease-in-out 0.1s;
-        transition: opacity 0.2s ease-in-out 0.1s;
-      }
-  
-      &:hover .header-link {
+      &:hover {
         opacity: 1;
       }
+  
+      &.sticky {
+        overflow-y: auto;
+        /* calculate height of nav list
+           viewport height - nav height - masthead x-padding
+        */
+        max-height: calc(100vh - #{$nav-height} - 2em);
+      }
+    }
+  
+    @include breakpoint($x-large) {
+      width: calc(#{$right-sidebar-width} - 1em);
+    }
+  
+    > * {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 0;
+      font-family: $sans-serif-narrow;
     }
   
     p,
-    li,
-    dl {
-      font-size: 1em;
-    }
-  
-    /* paragraph indents */
-    p {
-      margin: 0 0 $indent-var;
-  
-      /* sibling indentation*/
-      @if $paragraph-indent == true {
-        & + p {
-          text-indent: $indent-var;
-          margin-top: -($indent-var);
-        }
-      }
-    }
-  
-    a:not(.btn) {
-      &:hover {
-        text-decoration: underline;
-  
-        img {
-          box-shadow: 0 0 10px rgba(#000, 0.25);
-        }
-      }
-    }
-  
-    dt {
-      margin-top: 1em;
-      font-family: $sans-serif;
-      font-weight: bold;
-    }
-  
-    dd {
-      margin-left: 1em;
+    li {
       font-family: $sans-serif;
       font-size: $type-size-6;
+      line-height: 1.5;
     }
   
-    .small {
-      font-size: $type-size-6;
-    }
+    img {
+      width: 100%;
   
-    /* blockquote citations */
-    blockquote + .small {
-      margin-top: -1.5em;
-      padding-left: 1.25rem;
-    }
-  }
-  
-  .page__hero {
-    position: relative;
-    margin-bottom: 2em;
-    @include clearfix;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    -webkit-animation-delay: 0.25s;
-    animation-delay: 0.25s;
-  
-    &--overlay {
-      position: relative;
-      margin-bottom: 2em;
-      padding: 3em 0;
-      @include clearfix;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      -webkit-animation: $intro-transition;
-      animation: $intro-transition;
-      -webkit-animation-delay: 0.25s;
-      animation-delay: 0.25s;
-  
-      a {
-        color: #fff;
-      }
-  
-      .wrapper {
-        padding-left: 1em;
-        padding-right: 1em;
-  
-        @include breakpoint($x-large) {
-          max-width: $x-large;
-        }
-      }
-  
-      .page__title,
-      .page__meta,
-      .page__lead,
-      .btn {
-        color: #fff;
-        text-shadow: 1px 1px 4px rgba(#000, 0.5);
-      }
-  
-      .page__lead {
-        max-width: $medium;
-      }
-  
-      .page__title {
-        font-size: $type-size-2;
-  
-        @include breakpoint($small) {
-          font-size: $type-size-1;
-        }
+      &.emoji {
+        width: 20px;
+        height: 20px;
       }
     }
   }
   
-  .page__hero-image {
-    width: 100%;
-    height: auto;
-    -ms-interpolation-mode: bicubic;
-  }
-  
-  .page__hero-caption {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0 auto;
-    padding: 2px 5px;
-    color: #fff;
-    font-family: $caption-font-family;
-    font-size: $type-size-7;
-    background: #000;
-    text-align: right;
-    z-index: 5;
-    opacity: 0.5;
-    border-radius: $border-radius 0 0 0;
+  .sidebar__right {
+    margin-bottom: 1em;
   
     @include breakpoint($large) {
-      padding: 5px 10px;
-    }
-  
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-  
-  /*
-     Social sharing
-     ========================================================================== */
-  
-  .page__share {
-    margin-top: 2em;
-    padding-top: 1em;
-    border-top: 1px solid $border-color;
-  
-    @include breakpoint(max-width $small) {
-      .btn span {
-        border: 0;
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-      }
-    }
-  }
-  
-  .page__share-title {
-    margin-bottom: 10px;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-  }
-  
-  /*
-     Page meta
-     ========================================================================== */
-  
-  .page__meta {
-    margin-top: 2em;
-    padding-top: 8px;
-    color: $muted-text-color;
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-  
-    p {
-      margin: 0;
-    }
-  
-    a {
-      color: inherit;
-    }
-  }
-  
-  .page__meta-title {
-    margin-bottom: 10px;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-  }
-  
-  .page__meta-sep::before {
-    content: "\2022";
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-  
-  /*
-     Page taxonomy
-     ========================================================================== */
-  
-  .page__taxonomy {
-    .sep {
-      display: none;
-    }
-  
-    strong {
-      margin-right: 10px;
-    }
-  }
-  
-  .page__taxonomy-item {
-    display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 8px;
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 1px solid mix(#000, $border-color, 25%);
-    border-radius: $border-radius;
-  
-    &:hover {
-      text-decoration: none;
-      color: $link-color-hover;
-    }
-  }
-  
-  .taxonomy__section {
-    margin-bottom: 2em;
-    padding-bottom: 1em;
-  
-    &:not(:last-child) {
-      border-bottom: solid 1px $border-color;
-    }
-  
-    .archive__item-title {
-      margin-top: 0;
-    }
-  
-    .archive__subtitle {
-      clear: both;
-      border: 0;
-    }
-  
-    + .taxonomy__section {
-      margin-top: 2em;
-    }
-  }
-  
-  .taxonomy__title {
-    margin-bottom: 0.5em;
-    color: $muted-text-color;
-  }
-  
-  .taxonomy__count {
-    color: $muted-text-color;
-  }
-  
-  .taxonomy__index {
-    display: grid;
-    grid-column-gap: 2em;
-    grid-template-columns: repeat(2, 1fr); // cannot be too big since this setting is for the small screen
-    margin: 1.414em 0;
-    padding: 0;
-    font-size: 0.75em;
-    list-style: none;
-  
-    @include breakpoint($large) {
-      grid-template-columns: repeat(4, 1fr); // 3
-    }
-  
-    // a {
-    //   display: -webkit-box;
-    //   display: -ms-flexbox;
-    //   display: flex;
-    //   padding: 0.25em 0;
-    //   -webkit-box-pack: justify;
-    //   -ms-flex-pack: justify;
-    //   justify-content: space-between;
-    //   color: inherit;
-    //   text-decoration: none;
-    //   border-bottom: 1px solid $border-color;
-    // }
-    a {
-      // display: inline-block;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      height: 24px;
-      line-height: 24px;
-      position: relative;
-      margin: 0 16px 8px 0;
-      padding: 0 10px 0 12px;
-      // background: #23f368;
-      background-image:url('/assets/images/leaf.jpg'); // background color from image
-      // Below make the corner rounded instead of sharpe
-      -webkit-border-bottom-right-radius: 3px;    
-      border-bottom-right-radius: 3px;
-      -webkit-border-top-right-radius: 3px;    
-      border-top-right-radius: 3px;
-      -webkit-border-bottom-left-radius: 3px;    
-      border-bottom-left-radius: 3px;
-      -webkit-border-top-left-radius: 3px;    
-      border-top-left-radius: 3px;
-      //
-      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      color: rgb(12, 0, 177); // tag text color
-      font-size: 12px;
-      font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-      text-decoration: none;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      text-indent: 2px; // move text to right a bit
-      font-weight: bold;
-    }
-    // a:before {
-    //   content: "";
-    //   position: absolute;
-    //   top:0;
-    //   left: -12px;
-    //   width: 0;
-    //   height: 0;
-    //   // border-color: transparent #85f7ab transparent transparent;
-    //   border-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt64iCC97bcpJqJlHBl56MKFGHCUfOSZSeeUiRCxTavSf9Qvq0wkfFYuSdiszxWHdhVMc&usqp=CAU');
-    //   // border-style: solid;
-    //   // border-width: 12px 12px 12px 0;        
-    //   }
-  
-    a:after {
-      content: "";
       position: absolute;
-      top: 10px;
-      left: 3px; // tag's hole position to left
-      float: left;
-      width: 5px;
-      height: 5px;
-      -webkit-border-radius: 50%;
-      border-radius: 50%;
-      background: #fff;
-      -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
-      box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+      top: 0;
+      right: 0;
+      width: $right-sidebar-width-narrow;
+      margin-right: -1 * $right-sidebar-width-narrow;
+      padding-left: 1em;
+      z-index: 10;
+  
+      &.sticky {
+        @include clearfix();
+        position: -webkit-sticky;
+        position: sticky;
+        top: 2em;
+        float: right;
+  
+        .toc {
+          .toc__menu {
+            overflow-y: auto;
+            max-height: calc(100vh - 7em);
+          }
+        }
       }
-  }
-  
-  .back-to-top {
-    display: block;
-    clear: both;
-    color: $muted-text-color;
-    font-size: 0.6em;
-    text-transform: uppercase;
-    text-align: right;
-    text-decoration: none;
-  }
-  
-  /*
-     Comments
-     ========================================================================== */
-  
-  .page__comments {
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
-  }
-  
-  .page__comments-title {
-    margin-top: 2rem;
-    margin-bottom: 10px;
-    padding-top: 2rem;
-    font-size: $type-size-6;
-    border-top: 1px solid $border-color;
-    text-transform: uppercase;
-  }
-  
-  .page__comments-form {
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-  
-    &.disabled {
-      input,
-      button,
-      textarea,
-      label {
-        pointer-events: none;
-        cursor: not-allowed;
-        filter: alpha(opacity=65);
-        box-shadow: none;
-        opacity: 0.65;
-      }
-    }
-  }
-  
-  .comment {
-    @include clearfix();
-    margin: 1em 0;
-  
-    &:not(:last-child) {
-      border-bottom: 1px solid $border-color;
-    }
-  }
-  
-  .comment__avatar-wrapper {
-    float: left;
-    width: 60px;
-    height: 60px;
-  
-    @include breakpoint($large) {
-      width: 100px;
-      height: 100px;
-    }
-  }
-  
-  .comment__avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  
-    @include breakpoint($large) {
-      width: 80px;
-      height: 80px;
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
-  }
-  
-  .comment__content-wrapper {
-    float: right;
-    width: calc(100% - 60px);
-  
-    @include breakpoint($large) {
-      width: calc(100% - 100px);
-    }
-  }
-  
-  .comment__author {
-    margin: 0;
-  
-    a {
-      text-decoration: none;
-    }
-  }
-  
-  .comment__date {
-    @extend .page__meta;
-    margin: 0;
-  
-    a {
-      text-decoration: none;
-    }
-  }
-  
-  /*
-     Related
-     ========================================================================== */
-  
-  .page__related {
-    @include clearfix();
-    float: left;
-    margin-top: 2em;
-    padding-top: 1em;
-    border-top: 1px solid $border-color;
-  
-    @include breakpoint($large) {
-      float: right;
-      // width: calc(100% - #{$right-sidebar-width-narrow});
-      width: 94%; // changed
     }
   
     @include breakpoint($x-large) {
-      // width: calc(100% - #{$right-sidebar-width});
-      width: 94%; // changed
+      width: $right-sidebar-width;
+      margin-right: -1 * $right-sidebar-width;
+    }
+  }
+  
+  .splash .sidebar__right {
+    @include breakpoint($large) {
+      position: relative;
+      float: right;
+      margin-right: 0;
+    }
+  
+    @include breakpoint($x-large) {
+      margin-right: 0;
+    }
+  }
+  
+  /*
+     Author profile and links
+     ========================================================================== */
+  
+  .author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 36px;
+    height: 36px;
+  
+    @include breakpoint($large) {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+  
+    img {
+      max-width: 110px;
+      border-radius: 50%;
+  
+      @include breakpoint($large) {
+        padding: 5px;
+        border: 1px solid $border-color;
+      }
+    }
+  }
+  
+  .author__content {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 25px;
+    line-height: 1;
+  
+    @include breakpoint($large) {
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
     }
   
     a {
@@ -631,36 +164,191 @@
     }
   }
   
-  .page__related-title {
-    margin-bottom: 10px;
-    font-size: $type-size-6;
-    text-transform: uppercase;
+  .author__name {
+    margin: 0;
+  
+    @include breakpoint($large) {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .sidebar .author__name {
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+  }
+  
+  .author__bio {
+    margin: 0;
+  
+    @include breakpoint($large) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .author__urls-wrapper {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: $sans-serif;
+    z-index: 20;
+    cursor: pointer;
+  
+    li:last-child {
+      a {
+        margin-bottom: 0;
+      }
+    }
+  
+    .author__urls {
+      span.label {
+        padding-left: 5px;
+      }
+    }
+  
+    @include breakpoint($large) {
+      display: block;
+    }
+  
+    button {
+      position: relative;
+      margin-bottom: 0;
+  
+      &:before {
+        @supports (pointer-events: none) {
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+        }
+      }
+  
+      &.open {
+        &:before {
+          pointer-events: auto;
+        }
+      }
+  
+      @include breakpoint($large) {
+        display: none;
+      }
+    }
+  }
+  
+  .author__urls {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: $background-color;
+    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    cursor: default;
+  
+    &.is--visible {
+      display: block;
+    }
+  
+    @include breakpoint($large) {
+      display: block;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+  
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: -11px;
+      left: calc(50% - 10px);
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $border-color transparent;
+      z-index: 0;
+  
+      @include breakpoint($large) {
+        display: none;
+      }
+    }
+  
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: calc(50% - 10px);
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $background-color transparent;
+      z-index: 1;
+  
+      @include breakpoint($large) {
+        display: none;
+      }
+    }
+  
+    ul {
+      padding: 10px;
+      list-style-type: none;
+    }
+  
+    li {
+      white-space: nowrap;
+    }
+  
+    a {
+      display: block;
+      margin-bottom: 5px;
+      padding-right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      color: inherit;
+      font-size: $type-size-5;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   
   /*
      Wide Pages
      ========================================================================== */
   
-  .wide {
-    .page {
-      @include breakpoint($large) {
-        padding-right: 0;
-      }
+  .wide .sidebar__right {
+    margin-bottom: 1em;
   
-      @include breakpoint($x-large) {
-        padding-right: 0;
+    @include breakpoint($large) {
+      position: initial;
+      top: initial;
+      right: initial;
+      width: initial;
+      margin-right: initial;
+      padding-left: initial;
+      z-index: initial;
+  
+      &.sticky {
+        float: none;
       }
     }
   
-    .page__related {
-      @include breakpoint($large) {
-        padding-right: 0;
-      }
-  
-      @include breakpoint($x-large) {
-        padding-right: 0;
-      }
+    @include breakpoint($x-large) {
+      width: initial;
+      margin-right: initial;
     }
   }
-
+  
   
