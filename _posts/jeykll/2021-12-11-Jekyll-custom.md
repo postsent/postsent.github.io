@@ -315,3 +315,13 @@ $base0d: #82aaff;
 $base0e: #c792ea;
 $base0f: #ff5370;
 ```
+
+## Multiple urls for one page
+Follow [jekyll-redirect-from plugin](https://github.com/jekyll/jekyll-redirect-from).
+
+## A run script 
+
+```bash
+# this allows changes at real time
+bundle exec jekyll serve --force_polling --port 4000
+```
