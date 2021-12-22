@@ -7,8 +7,8 @@ main:
     url: "http://postsent.github.io/nb"
   - title: "About"
     url: /about/
-  - title: "Comments"
-    url: "http://postsent.github.io/gh-page-comments"
+  # - title: "Comments"
+  #   url: "http://postsent.github.io/gh-page-comments"
   - title: "CN/中文"
     url: "http://postsent.github.io/cn" # myurl
     description: "转换成中文"
