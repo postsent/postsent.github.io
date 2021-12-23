@@ -20,6 +20,16 @@ After some days of struggling in incoperating the teXt-theme(simple, clean and m
 2021-12-15:  
 Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
 Just realise could have update the gitignore and then keep on copy instead of one for remote one for local...
+
+2021-12-23
+Realise the internet condition in China is different and need extra care.
+
+Refereces:
+
+[different ways to overcome the problem](https://7988888.xyz/blog1/)
+[CDN speed up](https://zhuanlan.zhihu.com/p/354924632)
+[A similar platform to Github that is faster there](https://blog.csdn.net/qq_36759224/article/details/100879609)
+
 # Edge cases
 Long TOC title.
 Long category title in category page.
@@ -96,3 +106,11 @@ Why? To keep github with as less unneccessary files as possible. The remote them
 
 Once, I accidentally change the chinese version when I mean the english one.  
 Then, I change the English remote version instead of english local version. 
+
+# heplful links
+Below is a list of helpful links for making this websites:
+* Jekyll Installation Tutorial: https://jekyllrb.com/docs/installation/windows/
+* Different themes selection: https://jekyllthemes.io/theme/just-the-docs
+
+format page: https://github.com/pmarsceill/just-the-docs/issues/431
+change layout: https://github.com/pmarsceill/just-the-docs/blob/e8424986370bef104e680e1443a83e475d2fead7/docs/utilities/layout.md
