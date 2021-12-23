@@ -29,7 +29,7 @@ Refereces:
    https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 2. Set up langauge switcher by simply create two differetn github.io pages - one personal, one project.
 The pros is little dependency between two language versino of the websites, e.g. could make two completely different _congfig.yml & navigation.yml (structure) file. 
-A lot less complexity compared with current approach, see the disucssion in the github issues in the minimal mistake github page. E.g. If use third-party plugin - multi-language Jeykll, currently is not supported by the github page due to security.
+A lot less complexity compared with current approach, see the disucssion in the github issues in the minimal mistake github page. E.g. If use third-party plugin - multi-language Jekyll, currently is not supported by the github page due to security.
 Cons: The method is navie.
 3. Change the locale (language setting) depends on chinese or english.  
 

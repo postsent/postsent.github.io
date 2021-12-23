@@ -17,6 +17,10 @@ toc_sticky: true
 <figcaption align="center">This is my caption text.</figcaption>
 </figure>
 <!-- The ALT text adds a text description to an image on a Web page -->
+<!-- this one can centre in jekyll, note that using this syntax, only width will take effect and the ratio is remained -->
+<p align="center">
+<img src="/assets/images/unsw-courses/2511-1.png" alt="drawing" width="500"/>
+</p>
 ```
 <figure align="center">
 <img src="/assets/images/test.jpg" alt="image" width="600" height="300" />
@@ -67,7 +71,7 @@ toc_sticky: true
 <br />
 ```
 
-# Jeykll 
+# Jekyll 
 
 # Code snippet in Collispable section
 

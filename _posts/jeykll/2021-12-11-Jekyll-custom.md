@@ -2,7 +2,7 @@
 title: "My customerisation on Keykll themes"
 date: 2021-12-11
 categories:
-  - Jeykll
+  - Jekyll
 toc: true
 toc_sticky: true
 last_modified_at: 2021-12-22
@@ -14,7 +14,7 @@ last_modified_at: 2021-12-22
 Hexo:
 - [Hexo example](http://monkeywie.cn/categories/)
   
-Jeykll:
+Jekyll:
 - [minimal mistake](https://fortierq.github.io/)
 - [clean](https://tianqi.name/jekyll-TeXt-theme/test/)
 
@@ -253,7 +253,7 @@ defaults:
 Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially supported on Github Page
 
 # Display jupyter notebook page
-Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jeykll points to the notebook github page.
+Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jekyll points to the notebook github page.
 
 When install jupyter-book, due to proxy address problem, **do not** enable VPN while ``pip install -U jupyter-book``.
 
@@ -282,7 +282,7 @@ Source code structure:
 
 Copy the content of the generated ``_build/html`` folder and place it to root of the gh-pages branch (nothing else is needed) and then add a empty file named: ``.nojekyll``, then push it.
 
-Now, add a link from the jeykll page to this notebook page and it's done
+Now, add a link from the jekyll page to this notebook page and it's done
 
 To preview the html result, see [preview](https://jupyterbook.org/start/build.html)
 # Minor
