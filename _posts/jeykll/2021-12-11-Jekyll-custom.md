@@ -328,3 +328,7 @@ bundle exec jekyll serve --force_polling --port 4000
 ## Baidu SEO verification
 
 [reference](https://blog.csdn.net/torpidcat/article/details/120222387)
+
+## Separation between technical & casual
+
+Use different collections, the existing category is used for CS related whilst tag is used for casual stuffs.

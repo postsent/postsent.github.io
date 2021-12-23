@@ -4,9 +4,27 @@ title: "My experience so far with Jukyell"
 date: 2021-12-12
 categories:
   - Jekyll
+last_modified_at: 2021-12-23
 ---
 
-# Progress
+# Logs
+
+2021-12-15:  
+Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
+Just realise could have update the gitignore and then keep on copy instead of one for remote one for local...
+
+2021-12-23
+Realise the internet condition in China is different and need extra care. Set up CDN is not considered yet as it requires to buy a custom domain name.
+
+Refereces:
+
+[different ways to overcome the problem](https://7988888.xyz/blog1/)
+[CDN speed up](https://zhuanlan.zhihu.com/p/354924632)
+[CDN - cloudfare](https://monkeywie.cn/archives/)
+[A similar platform to Github that is faster there](https://blog.csdn.net/qq_36759224/article/details/100879609)
+
+# More
+
 1. Go through the configuration site
    https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 2. Set up langauge switcher by simply create two differetn github.io pages - one personal, one project.
@@ -16,19 +34,6 @@ Cons: The method is navie.
 3. Change the locale (language setting) depends on chinese or english.  
 
 After some days of struggling in incoperating the teXt-theme(simple, clean and modern lookng) archive page into this theme(well-maintain, cross-platform e.g. great mobile support e.g. when small screen the toc is placed on the top of the page). To see how well-maintain, check number of issues opened in a GitHub page.
-
-2021-12-15:  
-Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
-Just realise could have update the gitignore and then keep on copy instead of one for remote one for local...
-
-2021-12-23
-Realise the internet condition in China is different and need extra care.
-
-Refereces:
-
-[different ways to overcome the problem](https://7988888.xyz/blog1/)
-[CDN speed up](https://zhuanlan.zhihu.com/p/354924632)
-[A similar platform to Github that is faster there](https://blog.csdn.net/qq_36759224/article/details/100879609)
 
 # Edge cases
 Long TOC title.
@@ -57,6 +62,9 @@ defaults:
 
 [Below is Backlog/todo](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
 
+# Potential
+
+- [ ] insert last modified date automatically with git
 
 # Done
 - [x] Comments - use utterance since uses github issue api. Other, either requires dependencies too much or has ads (free version). Cons: users need to login to comment
