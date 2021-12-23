@@ -7,8 +7,25 @@ toc: true
 toc_sticky: true
 last_modified_at: 2021-12-22
 ---
+# Compare different themes - Blog:
 
-# References post
+> :eyes: **Notes**: Easiest way to find the popular ones, search the theme, then sort by stars/forks on github
+
+Hexo:
+- [Hexo example](http://monkeywie.cn/categories/)
+  
+Jeykll:
+- [minimal mistake](https://fortierq.github.io/)
+- [clean](https://tianqi.name/jekyll-TeXt-theme/test/)
+
+Hugo:
+
+- [Docs like](https://www.linode.com/docs/)
+
+Others:
+- [disable copy and paste](https://7988888.xyz/blog1/)
+  
+# Minimal Mistake - References post
 Different examples/edge cases's code see [minimal repo docs folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 For actual output, search in the [quick start](https://mmistakes.github.io/minimal-mistakes/) with the corresponding title.
 
