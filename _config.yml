@@ -296,6 +296,14 @@ defaults:
       toc_label: "Table of Content"
       toc: true
       toc_sticky: true
+  - scope:
+      path: "_posts/unsw"
+      type: posts
+    values:
+      layout: single
+      header:
+        overlay_image: "./assets/images/unsw-courses/tree.jpg"
+        caption: "2021 Spring - Lower Campus Food Court"
    # _pages
   - scope:
       path: ""
