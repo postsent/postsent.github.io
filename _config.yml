@@ -302,7 +302,7 @@ defaults:
     values:
       layout: single
       header:
-        overlay_image: "./assets/images/unsw-courses/tree.jpg"
+        image: "./assets/images/unsw-courses/tree.jpg"
         caption: "2021 Spring - Lower Campus Food Court"
    # _pages
   - scope:
