@@ -298,7 +298,7 @@ defaults:
       toc_sticky: true
   - scope:
       path: "_posts/unsw"
-      type: posts
+      type: posts 
     values:
       layout: single
       header:
