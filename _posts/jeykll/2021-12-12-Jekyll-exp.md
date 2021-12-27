@@ -23,6 +23,10 @@ Refereces:
 [CDN - cloudfare](https://monkeywie.cn/archives/)
 [A similar platform to Github that is faster there](https://blog.csdn.net/qq_36759224/article/details/100879609)
 
+2021-12-27
+
+vscode allows collapsible based on different heading which is really convenitent for large content.
+
 # More
 
 1. Go through the configuration site

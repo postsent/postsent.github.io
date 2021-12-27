@@ -1,10 +1,10 @@
 ---
 title: "Post template for myself"
 date: 2021-12-14
+last_modified_at: 2021-12-14
 categories:
   - blog
-toc: true
-toc_sticky: true
+excerpt: Remindar for myself on the posting format
 ---
 
 This is for myself:
