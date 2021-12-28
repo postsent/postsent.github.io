@@ -40,7 +40,7 @@ toc_sticky: true
 | Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |  
 
 # Emoji
-[github Link](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c)
+[github Link](https://gist.github.com/rxaviers/7360908#file-gistfile1-md)
 [gitlab link](https://github.com/yodamad/gitlab-emoji)
 > :warning: **If you are using mobile browser**: Be very careful here!
 
