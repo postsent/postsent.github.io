@@ -27,6 +27,10 @@ Refereces:
 
 vscode allows collapsible based on different heading which is really convenitent for large content.
 
+2021-12-28
+
+[NotImplementedError - nbclient issue resolved: updated pyzmq](https://github.com/executablebooks/jupyter-book/issues/906)
+
 # More
 
 [wrap text around image](https://talk.jekyllrb.com/t/inclusion-image-on-left-side-and-text-on-the-right-side-using-markdown-in-jekyll-site/3413/4)

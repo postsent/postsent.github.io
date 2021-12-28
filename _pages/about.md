@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-layout: tags
+layout: single_sidebar
 ---
 
 Hello, this is Jerry'g Blog.

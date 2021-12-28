@@ -7,6 +7,7 @@ toc: true
 toc_sticky: true
 last_modified_at: 2021-12-22
 ---
+
 # Compare different themes - Blog:
 
 > :eyes: **Notes**: Easiest way to find the popular ones, search the theme, then sort by stars/forks on github
@@ -26,19 +27,25 @@ Others:
 - [disable copy and paste](https://7988888.xyz/blog1/)
   
 # Minimal Mistake - References post
+
 Different examples/edge cases's code see [minimal repo docs folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 For actual output, search in the [quick start](https://mmistakes.github.io/minimal-mistakes/) with the corresponding title.
 
 E.g [header image code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_posts/2012-03-15-layout-header-image-text-readability.md) with [header image visual output](https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/)
+
 # Notes
+
 ## Header image
+
 the path for files in the _{folderName} those with underscore, then the image path is always: ``/assets/images/lost-function.png`` i.e. starting from the **root folder**.
 > :eyes: Note that the root level base reference does not work if u add a baseurl e.g. ``/cn``. In the case of base url, use ``{{ site.baseurl }}/assets/images/urimagefileName``
 ## Excerpt
 Excerpt (the text display as a preview in e.g. the post by year page) if defined, will override the tagline (the text display in the overlay image under the title). 
 
 [Notebook layout](https://fortierq.github.io/nb/svm/)
+
 # Font size
+
 [global font size depends on screen width](https://github.com/mmistakes/minimal-mistakes/issues/1043)
 ```scss
 // Modified files: _sass/minimal-mistakes/_reset.scss
@@ -91,6 +98,7 @@ To fix this, create a new html called e.g. ``page_sidebar.html``in _layout by co
 
 Then applies this ``layout: page_sidebar`` to all the collection e.g. _docs for the case in the official theme docs.  
 Don't forget to add the collection in the ``_config.yml`` as mentioned in [Working with Collections](https://mmistakes.github.io/minimal-mistakes/docs/collections/) with the rest follow the [sidebar](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars)
+
 # Add favicon.con in the tab & masthead
 change ``logo`` param in the _config.yml will do for the masthread
 TODO: insert result image here (top-left appears img)
@@ -111,6 +119,7 @@ header:
     overlay_image: "/assets/images/wild.jpg"
     caption: "Photo credit: [**Wadim Kashin**](https://septicwd.tumblr.com/)"
 ```
+
 # Inspiration
 Below are list of blog examples using Jekyll theme
 [mincong](https://mincong.io/en/archive/)
@@ -190,6 +199,7 @@ code example
     }
   }
 ```
+
 # Simple language switcher - text form
 ```html
 <!-- location: _includes\page__meta.html before the end </p> -->
@@ -236,6 +246,7 @@ with open("original.yml", "r") as stream:
     with open("new.yml", "w") as f:
         yaml.dump(code, f)
 ```
+
 # Apply to all by specifing paths in config.yml
 ```yml
 defaults:
@@ -249,11 +260,12 @@ defaults:
       overlay_image: "./assets/images/ai.jpg"
       caption: 'Photo credit: [**winxtech**](https://winxtech.com/machine-learning-services)'
 ```
+
 # Emoji
 
 Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially supported on Github Page
 
-# Display jupyter notebook page
+# Jupyter notebook page
 
 Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jekyll points to the notebook github page.
 
@@ -288,6 +300,12 @@ Copy the content of the generated ``_build/html`` folder and place it to root of
 Now, add a link from the jekyll page to this notebook page and it's done
 
 To preview the html result, see [preview](https://jupyterbook.org/start/build.html)
+
+## TOC
+
+https://jupyterbook.org/structure/configure.html?highlight=title
+
+
 # Minor
 
 ## Remove toc border
@@ -352,3 +370,26 @@ bundle exec jekyll serve --force_polling --port 4000
 ## Separation between technical & casual
 
 Use different collections, the existing category is used for CS related whilst tag is used for casual stuffs.
+
+## bio image
+
+Remove hover over & increase width.
+
+```scss
+    @include breakpoint($large) {
+      float: left;
+      width: calc(#{$right-sidebar-width-narrow} - 1em);
+      // opacity: 0.75;
+      // -webkit-transition: opacity 0.2s ease-in-out;
+      // transition: opacity 0.2s ease-in-out;
+  
+      // &:hover {
+      //   opacity: 1;
+      // }
+      opacity: 1;
+
+      img {
+      // max-width: 110px;
+      max-width: 220px;
+      border-radius: 50%;
+```
