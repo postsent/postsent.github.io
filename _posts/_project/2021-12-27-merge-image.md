@@ -1,6 +1,13 @@
+# Match old photos with background
+
+2021012-28
+
+Incomplete:
+* Current AI software is for style transfer to recolour old photos.
+* It is more related to PS so discontinued.
+
 1. Find content image
 2. Style content image
-
 
 https://deepdreamgenerator.com/
 
