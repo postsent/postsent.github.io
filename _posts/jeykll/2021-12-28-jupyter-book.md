@@ -1,11 +1,10 @@
 ---
-title: Jupyter notebook page
+title: Jupyter book page
 date: 2021-12-28
 categories:
   - Jekyll
-toc: true
-toc_sticky: true
 last_modified_at: 2021-12-28
+excerpt: Usage on the powerful Jupyter book (instead of the Blog theme - Jekyll)
 ---
 
 # Notes

@@ -3,9 +3,8 @@ title: "My customerisation on Keykll themes"
 date: 2021-12-11
 categories:
   - Jekyll
-toc: true
-toc_sticky: true
 last_modified_at: 2021-12-22
+excerpt: As title
 ---
 
 # Compare different themes - Blog:
