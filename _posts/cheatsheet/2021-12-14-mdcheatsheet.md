@@ -2,7 +2,7 @@
 title: "My markdown cheatsheet"
 date: 2021-12-14
 categories:
-  - cheatsheet
+  - Cheatsheet
 toc: true
 toc_sticky: true
 ---

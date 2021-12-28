@@ -3,7 +3,7 @@ title: Ml Concept Analogy
 date: 2021-12-27
 last_modified_at: 2021-12-27
 categories:
-  - blog
+  - ML
 excerpt: My view on studying from a perspective of a ML model
 ---
 

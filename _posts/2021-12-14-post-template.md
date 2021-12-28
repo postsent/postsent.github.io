@@ -3,7 +3,7 @@ title: "Post template for myself"
 date: 2021-12-14
 last_modified_at: 2021-12-14
 categories:
-  - blog
+  - Blog
 excerpt: Reminder for myself on the posting format
 ---
 

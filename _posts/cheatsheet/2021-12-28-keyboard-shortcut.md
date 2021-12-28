@@ -2,7 +2,7 @@
 title: "Keyboard shortcut"
 date: 2021-12-28
 categories:
-  - "cheatsheet"
+  - Cheatsheet
 last_modified_at: 2021-12-28
 excerpt: My common use keyboard shortcut
 ---

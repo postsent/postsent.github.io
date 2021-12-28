@@ -3,7 +3,7 @@ title: Study
 date: 2021-12-24
 last_modified_at: 2021-12-22
 categories:
-  - study
+  - Study
 excerpt: My Study Tool
 ---
 # Google calendar
