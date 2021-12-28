@@ -29,6 +29,8 @@ vscode allows collapsible based on different heading which is really convenitent
 
 # More
 
+[wrap text around image](https://talk.jekyllrb.com/t/inclusion-image-on-left-side-and-text-on-the-right-side-using-markdown-in-jekyll-site/3413/4)
+
 1. Go through the configuration site
    https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 2. Set up langauge switcher by simply create two differetn github.io pages - one personal, one project.

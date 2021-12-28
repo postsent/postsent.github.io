@@ -4,7 +4,7 @@ date: 2021-12-14
 last_modified_at: 2021-12-14
 categories:
   - blog
-excerpt: Remindar for myself on the posting format
+excerpt: Reminder for myself on the posting format
 ---
 
 This is for myself:

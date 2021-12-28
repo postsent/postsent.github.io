@@ -20,4 +20,4 @@ Osillation in learning similar to real life.. but overall should maintain the tr
 
 # Generalisation
 
-
+#TODO
