@@ -4,13 +4,13 @@ title: "About"
 layout: single_sidebar
 ---
 
-Hello, this is Jerry'g Blog.
+Hello, I am Jerry.
 
-I am a CS student majoring in AI.
+I am a CS student majoring in AI. Finish my CS Bachelor degree at UNSW.
 
-This is a simple blog of my "journey to the west" host on the github page.
+This is a minimal blog of my "journey to the west".
 
-Why blog? Learn, understand and reflect.
+Why blog? Learn, reflect and advance.
 
 **Disclaimer:** 
 All posts are baesd on the time written, pls double check based on ur time. Suggestions given based on my experience.  
