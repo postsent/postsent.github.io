@@ -250,15 +250,18 @@ defaults:
       caption: 'Photo credit: [**winxtech**](https://winxtech.com/machine-learning-services)'
 ```
 # Emoji
+
 Add plugin [jemoji](https://github.com/jekyll/jemoji) which is officially supported on Github Page
 
 # Display jupyter notebook page
+
 Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jekyll points to the notebook github page.
 
 When install jupyter-book, due to proxy address problem, **do not** enable VPN while ``pip install -U jupyter-book``.
 
 The [official docs](https://jupyterbook.org/start/your-first-book.html) contains a lot of explanantion, below is the simplest version.
-Below reference from the [simple example](https://github.com/executablebooks/quantecon-mini-example/tree/master/mini_book) structure.
+Below reference from the [simple example](https://github.com/executablebooks/quantecon-mini-example/tree/master/mini_book) structure. [How official docs is formatted](https://github.com/executablebooks/jupyter-book/blob/master/docs/_toc.yml).
+
 > :notes: **Assume knowledge**: have publish gh-pages before.
 
 Note: main branch to store source code, gh-pages for what's published
