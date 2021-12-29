@@ -39,7 +39,11 @@ Source code structure:
 ```
 # Compile jupyter book
 
-``jupyter-book build ursourcecodeFolder``
+```bash
+# add a run script, then ./run
+jupyter-book build .
+cp -TRv _build/html docs/ # overwrite https://stackoverflow.com/questions/23698183/how-to-force-cp-to-overwrite-directory-instead-of-creating-another-one-inside
+```
 
 # Deployment
 

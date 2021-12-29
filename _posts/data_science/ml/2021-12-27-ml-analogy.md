@@ -20,4 +20,10 @@ Osillation in learning similar to real life.. but overall should maintain the tr
 
 # Generalisation
 
+# Types of learning
+
+Supervised learning ~= Uni/Library
+Semi-supervised learning ~= Student Apartment/Roommate
+Unsupervised learning ~= Self
+
 #TODO
