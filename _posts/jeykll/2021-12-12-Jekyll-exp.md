@@ -8,32 +8,6 @@ last_modified_at: 2021-12-23
 excerpt: As title
 ---
 
-# Logs
-
-2021-12-15:  
-Currently are still familar with the Jekyll (different metas) and tries to customerise something, the process of keeping two version of posts is kindof taking some time.  
-Just realise could have update the gitignore and then keep on copy instead of one for remote one for local...
-
-2021-12-23
-Realise the internet condition in China is different and need extra care. Set up CDN is not considered yet as it requires to buy a custom domain name.
-
-Refereces:
-
-[different ways to overcome the problem](https://7988888.xyz/blog1/)
-[CDN speed up](https://zhuanlan.zhihu.com/p/354924632)
-[CDN - cloudfare](https://monkeywie.cn/archives/)
-[A similar platform to Github that is faster there](https://blog.csdn.net/qq_36759224/article/details/100879609)
-
-2021-12-27
-
-vscode allows collapsible based on different heading which is really convenitent for large content.
-
-2021-12-28
-
-[NotImplementedError - nbclient issue resolved: updated pyzmq](https://github.com/executablebooks/jupyter-book/issues/906)
-
-# More
-
 [wrap text around image](https://talk.jekyllrb.com/t/inclusion-image-on-left-side-and-text-on-the-right-side-using-markdown-in-jekyll-site/3413/4)
 
 1. Go through the configuration site

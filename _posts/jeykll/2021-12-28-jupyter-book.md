@@ -24,7 +24,8 @@ Below reference from the [simple example](https://github.com/executablebooks/qua
 
 Note: main branch to store source code, gh-pages for what's published
 
-## Source code
+# Source code
+
 Configure you main branch as below.
 Fill in the ``_config`` & ``_toc`` as above example (replaced with ur file structure).
 More details can be found in the official docs e.g. [toc](https://jupyterbook.org/customize/toc.html)
@@ -36,9 +37,13 @@ Source code structure:
 │   ├──notebook1.ipynb
 │   ├──...
 ```
-## Compile jupyter book
+# Compile jupyter book
 
 ``jupyter-book build ursourcecodeFolder``
+
+# Deployment
+
+[docs folder in main branch is curren appraoch](https://docs.github.com/en/pages/)getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## gh-pages 
 
@@ -48,11 +53,11 @@ Now, add a link from the jekyll page to this notebook page and it's done
 
 To preview the html result, see [preview](https://jupyterbook.org/start/build.html)
 
-## TOC
+# TOC
 
 https://jupyterbook.org/structure/configure.html?highlight=title
 
-## Emoji
+# Emoji
 
 Directly copy and paste emoji instead of use the syntax which is doable in Jekyll.
 For window, do ``window key + ;``
