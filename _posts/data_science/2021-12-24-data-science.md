@@ -5,9 +5,6 @@
 - IBM Data Science — Python
 - Google Machine Learning
 
-
-
-
 - Coursera
 - Edx
 - Udacity
@@ -55,3 +52,15 @@ For larger dataset, upload files as zip to google cloud and then load it in the 
 Interview
 - Andrew Ng "Heros" series (Youtube may have)
   #TODO
+
+# Others
+
+Applied Data Science Role or Research Role.
+
+## Posts
+
+[amazon](https://leetcode.com/discuss/interview-question/784569/Amazon-Data-Scientist-(Offer)/654287)
+- Andrew Ng course introduction to machine learning
+- https://machinelearningflashcards.com/
+
+[data science learning materials, see third heading](https://blog.csdn.net/zandaoguang/article/details/106880291)

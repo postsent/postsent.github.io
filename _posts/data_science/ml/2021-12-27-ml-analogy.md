@@ -22,8 +22,8 @@ Osillation in learning similar to real life.. but overall should maintain the tr
 
 # Types of learning
 
-Supervised learning ~= Uni/Library
-Semi-supervised learning ~= Student Apartment/Roommate
-Unsupervised learning ~= Self
+Supervised learning ~= Uni/Library  
+Semi-supervised learning ~= Student Apartment/Roommate  
+Unsupervised learning ~= Self  
 
 #TODO
