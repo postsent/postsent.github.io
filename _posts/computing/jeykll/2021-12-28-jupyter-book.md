@@ -11,6 +11,9 @@ excerpt: Usage on the powerful Jupyter book (instead of the Blog theme - Jekyll)
 
 The ``title`` param in the ``_toc`` file cannot be applied easily. Currently, the easiest way is just modifies the first heading in the notebook.
 
+Heading for each file seems to be a must.
+When specific filename in the ``_toc.yml``, file extension not needed.
+
 # Jupyter notebook page
 
 Similar to the transaltion approach mentioned above, here, since jupyter-book is built for jupyter notebook, we create a new github page and store the notebook there, with a url link in the jekyll points to the notebook github page.
