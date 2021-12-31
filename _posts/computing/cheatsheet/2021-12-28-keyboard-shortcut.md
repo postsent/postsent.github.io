@@ -1,10 +1,10 @@
 ---
-title: "Keyboard shortcut"
+title: "Commonly used apps: keyboard shortcut & usage"
 date: 2021-12-28
 categories:
   - Cheatsheet
 last_modified_at: 2021-12-28
-excerpt: My common use keyboard shortcut
+excerpt: My common use keyboard shortcut + other functionaliy usage
 ---
 
 # window10
@@ -29,6 +29,9 @@ Click the middle the cursor to open a new tab for the new page, rather than repl
 |``ctrl + shift + l`` | select all words matched with current highlight|
 |``ctrl+shift+p`` + type``transform``| convert to title case, all uppercase, etc|
 |shift + alt + i| insert cusor to all select lines|
+
+outline on the left sidebar for markdown / .ipynb, convenient & help find which heading to collapse.
+
 
 # Onenote
 

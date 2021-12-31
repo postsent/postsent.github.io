@@ -7,12 +7,14 @@ last_modified_at: 2021-12-28
 excerpt: Usage on the powerful Jupyter book (instead of the Blog theme - Jekyll)
 ---
 
-# Notes
+# Notes, assumptions
 
 The ``title`` param in the ``_toc`` file cannot be applied easily. Currently, the easiest way is just modifies the first heading in the notebook.
 
 Heading for each file seems to be a must.
 When specific filename in the ``_toc.yml``, file extension not needed.
+
+Heading size must in order, i.e. cannot jump from # to ###, otherwise, warning.
 
 # Jupyter notebook page
 
