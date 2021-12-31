@@ -12,7 +12,7 @@ This is a minimal blog of my "journey to the west".
 
 Why blog? Learn, reflect and advance.
 
-**Disclaimer:**   
+**Notes:**   
 
 All posts are baesd on the time written, pls double check based on ur time.   
 Suggestions given based on my experience.   
