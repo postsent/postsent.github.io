@@ -1,3 +1,11 @@
+---
+title: Data science general
+date: 2021-12-31
+categories:
+  - Data Science
+last_modified_at: 2021-12-31
+excerpt: My google search on data science
+---
 # Coding (Python)
 
 [search "data science" on GitHub](https://github.com/search?o=desc&q=data+science&s=stars&type=Repositories)
