@@ -9,6 +9,7 @@ excerpt: Reminder for myself on the posting format
 
 This is for myself:
 * Title case for tags & category
+* lower case for filename
 * Add intro for every post for meta preview section. (first 50 words)
 * backup chinese version before replace for config files due to some may override the langauge setting
 * For the file that applies to both langauge version e.g. the Jekyll customerisation, markdown cheatsheet post & this file, just maintain one since it is easy to modify file the wrong file with the same name.

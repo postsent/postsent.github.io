@@ -42,7 +42,9 @@ Source code structure:
 ```bash
 # add a run script, then ./run
 jupyter-book build .
-cp -TRv _build/html docs/ # overwrite https://stackoverflow.com/questions/23698183/how-to-force-cp-to-overwrite-directory-instead-of-creating-another-one-inside
+cp -TRv _build/html docs/ >/dev/null 
+# overwrite https://stackoverflow.com/questions/23698183 how-to-force-cp-to-overwrite-directory-instead-of-creating-another-one-inside
+# > /dev/null hide terminal output, see: https://askubuntu.com/questions/98377/how-to-hide-terminal-output-when-executing-a-command
 ```
 
 # Deployment
