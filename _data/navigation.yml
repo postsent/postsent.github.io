@@ -1,21 +1,24 @@
 main:
-  - title: "Computing"
+  - title: Computing
     url: /categories/
-  - title: "Others"
+    description: Computer/Data Science Related
+  - title: Others
     url: /tags/
-  - title: "Jupyter Notebook"
-    url: "http://postsent.github.io/nb"
-  - title: "About"
+    description: My Casual Blog
+  - title: Jupyter Notebook
+    url: http://postsent.github.io/nb
+    description: Projects With Code
+  - title: About
     url: /about/
-  # - title: "Comments"
-  #   url: "http://postsent.github.io/gh-page-comments"
-  - title: "CN/中文"
-    url: "http://postsent.github.io/cn" # myurl
-    description: "转换成中文"
+  # - title: Comments
+  #   url: http://postsent.github.io/gh-page-comments
+  - title: CN/中文
+    url: http://postsent.github.io/cn # myurl
+    description: 转换成中文
 
 notebooks:
-  - title: "Machine Learning"
+  - title: Machine Learning
     url: /nb/intro/
     children:
-      - title: "Examples"
+      - title: Examples
         url: /nb/ex/
