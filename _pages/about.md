@@ -20,3 +20,6 @@ Will do my best to reference the information I get.
 
 2021-12-23  
 Due to some network issue in China, the chinese version is no longer maintained (Other platform is used instead).   
+
+2021-12-31
+The initiative of this blog - the audience, is rather myself, just to reflect, OneNote always has been & will do but less entertaining.

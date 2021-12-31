@@ -13,6 +13,8 @@ excerpt: My common use keyboard shortcut
 |:-------| :--------------------------| 
 |``ctrl + shift + left/right arrow`` | select left/right whole word(s)|
 
+Click the middle the cursor to open a new tab for the new page, rather than replace the current with the new.
+
 # Chrome
 
 | key |  use                       |  

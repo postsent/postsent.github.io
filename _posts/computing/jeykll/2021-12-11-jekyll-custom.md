@@ -212,6 +212,8 @@ permalink: /:year/:month/:day/:title/ # /:categories, https://jekyllrb.com/docs/
 ```
 Also, I set the baseurl to ``/en`` or ``/cn``, just to make sure it does not confuse with other project github page url.
 
+**Assumptions**: I assume I will not create file with same name on the same day. Otherwise, as above, there will be a link connect to two pages which could confuse Jekyll.
+
 ## Automated translation for yml file
 Below is applied to _config.yml
 ```py
