@@ -28,7 +28,9 @@ Click the middle the cursor to open a new tab for the new page, rather than repl
 |``ctrl + d`` | select next word matched with current highlight|
 |``ctrl + shift + l`` | select all words matched with current highlight|
 |``ctrl+shift+p`` + type``transform``| convert to title case, all uppercase, etc|
-|shift + alt + i| insert cusor to all select lines|
+|``shift + alt + i``| insert cusor to all select lines|
+|``Ctrl + (K => 0)``| Collapse all sections (e.g. markdown heading) within a file|
+|``Ctrl + (K => J)``|unfolds all|
 
 outline on the left sidebar for markdown / .ipynb, convenient & help find which heading to collapse.
 
