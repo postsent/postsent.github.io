@@ -24,8 +24,24 @@ Hugo:
 
 Others:
 - [disable copy and paste](https://7988888.xyz/blog1/)
+
+# Nice Docs example design
+
+- Top bar
+  - flowing navigation bar with search bar. So user do not need to use the back to top compensation.
+  - contains links to different pages
+  - Collapsible heading section
+- Left sidebar 
+  -  overview of the page.
+- Right sidebar 
+  -  sticky TOC.
+  - TOC highligh only the words, minimal style.
   
-# Minimal Mistake - References post
+[Tensorflow Docs](https://www.tensorflow.org/tutorials/customization/basics)
+
+<img src="/assets/images/other/tensorflow-doc.png" width="700"/>
+  
+# Minimal Mistake Example post Source code
 
 Different examples/edge cases's code see [minimal repo docs folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 For actual output, search in the [quick start](https://mmistakes.github.io/minimal-mistakes/) with the corresponding title.
