@@ -11,9 +11,10 @@ excerpt: My google search on data science
 
 [CMU deep learning](https://deeplearning.cs.cmu.edu/S22/index.html#)
 
-# Blog
+# Blog-ish
 
-[Colah - LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+[Colah - LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+[Christian Herta - ML outline](http://christianherta.de/lehre/dataScience/dataScience.php)
 
 # Mailing list
 
