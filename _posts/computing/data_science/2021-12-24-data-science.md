@@ -1,11 +1,19 @@
 ---
-title: Data science general
+title: Data science collection
 date: 2021-12-31
 categories:
   - Data Science
 last_modified_at: 2021-12-31
 excerpt: My google search on data science
 ---
+
+# Uni Courses outline / read material
+
+[CMU deep learning](https://deeplearning.cs.cmu.edu/S22/index.html#)
+
+# Blog
+
+[Colah - LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 # Mailing list
 
