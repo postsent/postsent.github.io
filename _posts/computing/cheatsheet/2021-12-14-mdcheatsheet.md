@@ -10,7 +10,9 @@ toc_sticky: true
 # Insert images
 ```html
 <!-- simple -->
-<img src="/assets/images/test.jpg" alt="image" width="1000"  height="300" />
+<img src="/assets/images/test.jpg" width="1000"  height="300" />
+<!-- Aspect ratio -->
+<img src="/assets/images/test.jpg" width="50%"/>
 <!-- with caption -->
 <figure align="center">
 <img src="/assets/images/4920-ethics-kant-mill.png" alt="image" />
