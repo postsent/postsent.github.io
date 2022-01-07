@@ -48,4 +48,9 @@ Spacing
 To remove a spacing in TOC, select the empty line that is formatted as a **heading** to **normal**.  
 backspace vs delete: backspace could merge the format of the current section to the closer section. Delete will not. E.g. backspace a paragraph up may merge this p to the format of the upper section e.g. a heading1.
 
+# Others
+
+## Icon
+
+[Folder icon - icon8](https://icon-icons.com/)
 
