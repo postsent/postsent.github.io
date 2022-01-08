@@ -20,3 +20,11 @@ Related work section gives [a relevant dataset](https://aclanthology.org/2021.ac
 
 Google Jiasaw is where the name comes from.
 
+# TODO
+
+[Jigsaw-Ridge Ensemble + TFIDF + FastText [0.868]](https://www.kaggle.com/nkitgupta/jigsaw-ridge-ensemble-tfidf-fasttext-0-868/notebook)
+- [nlpaug](https://nlpaug.readthedocs.io/en/latest/augmenter/word/random.html)
+
+[Incredibly Simple Naive Bayes [0.768]](https://www.kaggle.com/julian3833/jigsaw-incredibly-simple-naive-bayes-0-768)
+
+[[RAPIDS] TFIDF_linear_model_ensemble](https://www.kaggle.com/tenffe/rapids-tfidf-linear-model-ensemble/notebook)

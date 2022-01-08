@@ -7,30 +7,6 @@ last_modified_at: 2021-12-31
 excerpt: My google search on data science
 ---
 
-# Uni Courses outline / read material
-
-[CMU deep learning](https://deeplearning.cs.cmu.edu/S22/index.html#)
-
-# Blog-ish
-
-[Colah - LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
-[Christian Herta - ML outline](http://christianherta.de/lehre/dataScience/dataScience.php)
-
-# Mailing list
-
-[the batch by Andrew Ng](https://read.deeplearning.ai/the-batch/)
-
-# Coding (Python)
-
-[search "data science" on GitHub](https://github.com/search?o=desc&q=data+science&s=stars&type=Repositories)
-
-# Colab
-
-Kaggle notebook also do.
-
-For larger dataset, upload files as zip to google cloud and then load it in the environment and unzip it there.
-> :gem: **Notes**: It would be slow if reference the files directly to google cloud - load in environment before training faster.
-
 # Links
 
 ## Online Course/Certificate
@@ -70,7 +46,25 @@ Data Scientists vs. Data Analysts
 - Andrew Ng "Heros" series (Youtube may have)
   #TODO
 
-# More
+## Uni Courses outline / read material
+
+[CMU deep learning](https://deeplearning.cs.cmu.edu/S22/index.html#)
+
+## Blog-ish
+
+[Colah - LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+[Christian Herta - ML outline](http://christianherta.de/lehre/dataScience/dataScience.php)
+
+## Mailing list
+
+[the batch by Andrew Ng](https://read.deeplearning.ai/the-batch/)
+
+## Coding (Python)
+
+[search "data science" on GitHub](https://github.com/search?o=desc&q=data+science&s=stars&type=Repositories)
+
+
+## More
 
 Applied Data Science Role or Research Role.
 
