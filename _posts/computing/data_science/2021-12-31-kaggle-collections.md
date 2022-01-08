@@ -11,7 +11,7 @@ excerpt: As title
 ## data argumentation
 
 [data argumentation](https://github.com/makcedward/nlpaug)
-[](https://github.com/jasonwei20/eda_nlp)
+[Easy Data Augmentation](https://github.com/jasonwei20/eda_nlp)
 
 ## Inspiration
 
