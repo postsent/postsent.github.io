@@ -63,6 +63,9 @@ Data Scientists vs. Data Analysts
 
 [search "data science" on GitHub](https://github.com/search?o=desc&q=data+science&s=stars&type=Repositories)
 
+## Github
+
+To find more resource, u could find someone who is reputable, then have a look at what they repo star.
 
 ## More
 
