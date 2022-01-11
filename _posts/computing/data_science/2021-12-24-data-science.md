@@ -11,6 +11,9 @@ excerpt: My google search on data science
 
 ## Online Course/Certificate
 
+[deeplearning.ai](https://www.deeplearning.ai/programs/)
+[practical-data-science-specialization](https://www.deeplearning.ai/program/practical-data-science-specialization/)
+
 [Certificates](https://baijiahao.baidu.com/s?id=1675891205669998599&wfr=spider&for=pc)
 - TensorFlowDeveloper Certificate program
 - IBM Data Science — Python
