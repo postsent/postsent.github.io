@@ -297,7 +297,7 @@ defaults:
       toc: true
       toc_sticky: true
   - scope:
-      path: "_posts/unsw"
+      path: "_posts/computing/uni/unsw"
       type: posts 
     values:
       layout: single
