@@ -12,6 +12,8 @@ last_modified_at: 2022-01-10
 
 # Other
 [Github repo size limit](https://stackoverflow.com/questions/38768454/repository-size-limits-for-github-com)
+- Individual files in a repository are strictly limited to a **100 MB** maximum size limit.
+- ["We recommend repositories remain small, ideally less than 1 GB, and less than 5 GB is strongly recommended."](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
 
 Name for git  changed: Master -> main branch, blacklist -> blocklist, after the 2020 event of racial equality. Thou GitLab hasn't change yet.
 
