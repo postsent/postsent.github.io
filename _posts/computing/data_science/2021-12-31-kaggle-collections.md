@@ -30,3 +30,15 @@ Collection of most winning solution:
 - [kaggle, detailed](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions) 
 - [detailed](https://ndres.me/kaggle-past-solutions/)
 - [no tag](https://farid.one/kaggle-solutions/) 
+
+# Environment
+
+\#environment
+
+## Project structure
+
+[Example1 by Shahul ES](https://neptune.ai/blog/how-to-structure-and-manage-nlp-projects-templates)
+
+## Maybe 
+
+[colab on vscode](https://github.com/abhishekkrthakur/colabcode)
