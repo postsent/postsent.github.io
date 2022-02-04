@@ -14,7 +14,6 @@ Gemfile.lock
 minimal-mistakes-jekyll.gemspec
 
 # other
-run
 staticman.yml
 banner.js
 package.json

@@ -7,6 +7,12 @@ last_modified_at: 2021-12-22
 excerpt: As title
 ---
 
+# Jekyll Setup
+```py
+Follow the official docs guide
+bundle init # write gemfile
+bundle
+```
 # Compare different themes - Blog:
 
 > :eyes: **Notes**: Easiest way to find the popular ones, search the theme, then sort by stars/forks on github
