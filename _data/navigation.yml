@@ -2,7 +2,7 @@ main:
   - title: Computing
     url: /categories/
     description: Computer/Data Science Related
-  - title: Causal
+  - title: Casual
     url: /tags/
     description: My Casual Blog
   - title: Jupyter Notebook
