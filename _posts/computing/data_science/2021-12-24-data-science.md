@@ -11,6 +11,8 @@ excerpt: My google search on data science
 
 ## Online Course/Certificate
 
+[starter guide for ML](https://github.com/louisfb01/start-machine-learning) with links to some up-to-date resources.
+
 [deeplearning.ai](https://www.deeplearning.ai/programs/)
 [practical-data-science-specialization](https://www.deeplearning.ai/program/practical-data-science-specialization/)
 
