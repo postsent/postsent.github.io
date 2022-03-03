@@ -1,11 +1,15 @@
 ---
 title: My Organisation & tools
 date: 2022-02-25
-last_modified_at: 2022-02-25
-tags:
-  - Blog
+last_modified_at: 2022-03-02
+categories:
+  - Study
 excerpt: \#mine \#organisation
 ---
+
+# General
+
+- Set timeout for all task.
 
 # Google calendar
 
@@ -26,5 +30,7 @@ Apple calendar is ok but across platform support is not ideal.
 # Whiteboard
 
 # Alarm
+
+Set alarm for different events to be consistent.
 
 \#TODO
