@@ -7,6 +7,10 @@ categories:
 excerpt: \#research what may be read
 ---
 
+# NLP
+
+"gradient clipping"
+
 # Academic Writing
 
 "PhraseBook for Writing papers and Research in English"
