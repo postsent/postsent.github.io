@@ -7,9 +7,13 @@ categories:
 excerpt: \#research what may be read
 ---
 
-# NLP
+"Big self-supervised models are strong semi-supervised learners" 2020
 
-"gradient clipping"
+"A simple framework for contrastive learning of visual representations"
+
+"Backpropagation and the brain"
+
+"Self-supervised learning: The dark matter of intelligence"
 
 # Academic Writing
 

@@ -81,6 +81,7 @@ For window, do ``window key + ;``
 
 Used to think compile with html / pdf directly, however, the path is no recognised in the ``_toc.yml``, and search for a while: not many have this problem and convert to markdown format seems to be a sound solution.
 
+\#word doc \#markdown \#convert
 Convert word doc to markdown
 - https://products.aspose.app/words/conversion/word-to-md (currently used)
 - https://www.tutorialsteacher.com/articles/convert-word-doc-to-markdown
