@@ -5,13 +5,45 @@ categories:
   - Study
 toc: true
 toc_sticky: true
-excerpt: \#note taking \#note
+excerpt: \#note taking \#note Based on my own setting
 ---
+
+# Overwrite 
+
+2022.4.29
+
+- All theory from lab should be summariesd in OneNote
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## other
 
 
 Summarary with TOC and great indexing, then summary of summary. The summary should be print-friendly (E.g. OneNote is not good here).
 
-# Formatting
+## Formatting
 Format the note later, understanding first. E.g. After summerising the all lec slides into word doc, then starts format them together.
 
 If multiple headings contain same word   
@@ -22,13 +54,13 @@ abc
 edf
 ```
 
-# Apps
+## Apps
 
-## Word doc
+### Word doc
 
 For print out needed content e.g. memorise summarised lec slides for the exam.
 
-## OneNote
+### OneNote
 
 For content requires good indexing but less memorising part.
 
@@ -37,11 +69,15 @@ Coding/prac summeried as jupyter notebook.
 
 Samsung note for tablet , but 
 
-# Paper note vs digital
+## Coding
+
+Use educated print statement if dont know
+
+## Paper note vs digital
 
 索引，搜索
 
-# Web
+## Web
 
-## Weava highlighter
+### Weava highlighter
 
