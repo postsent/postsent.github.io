@@ -4,7 +4,7 @@ date: 2022-04-26
 last_modified_at: 2022-04-26
 categories:
   - Research
-excerpt: \#As title \#mine \#quote
+excerpt: \#As title \#mine \#quote \#productivity
 ---
 
 
@@ -29,5 +29,8 @@ Try make notes more interesting / visually pleasing way so that I am interested 
 
 # Advice from others
 
-## karpathy
+## Karpathy
 https://cs.stanford.edu/people/karpathy/advice.html
+
+## Movie inspired
+terminator > transformer > avatar > iron man > ender's game > interstellar > ready player 1 > Alita
