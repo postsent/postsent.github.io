@@ -19,3 +19,10 @@ Basically try to create a standard API for all my notes so I can navigate throug
 - log
 - e.g. jan : by month
 - idea
+- musing
+- research
+- tech
+- uni
+- habit
+- lesson
+- plan
