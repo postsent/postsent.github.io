@@ -1,5 +1,5 @@
 ---
-title: All tags in the Blog
+title: All tags in the Blog/logs
 date: 2022-04-22
 last_modified_at: 2022-04-22
 tags:
@@ -26,3 +26,8 @@ Basically try to create a standard API for all my notes so I can navigate throug
 - habit
 - lesson
 - plan
+- survey
+- thanks
+- fun
+- blog
+- class
