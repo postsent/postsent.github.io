@@ -33,3 +33,4 @@ Basically try to create a standard API for all my notes so I can navigate throug
 - class
 - python
 - cs
+- 
