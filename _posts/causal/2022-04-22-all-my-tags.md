@@ -17,20 +17,21 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - AI
 - Edited
 - log
-- e.g. jan : by month
+- e.g. jan : by month # log
 - idea
 - musing
 - research
 - tech
 - uni
 - habit
-- lesson
+- lesson # lesson learnt in life
 - plan
 - survey
-- thanks
+- thanks # connect the dots looking backward
 - fun
 - blog
 - class
 - python
 - cs
 - unsw
+- observe # the market trend
