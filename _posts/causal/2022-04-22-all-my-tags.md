@@ -8,7 +8,7 @@ excerpt: \#tags
 ---
 
 Note that below tag is how I navigate when writing the content in vscode, basically just searach "#xxx" to goto the content I want to add.
-Basically try to create a standard API for all my notes so I can navigate through quickly.
+Basically try to create a standard API / mapping index / SEO for all my notes so I can navigate through quickly.
 
 - TODO
 - recall
@@ -33,4 +33,4 @@ Basically try to create a standard API for all my notes so I can navigate throug
 - class
 - python
 - cs
-- 
+- unsw
