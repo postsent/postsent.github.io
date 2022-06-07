@@ -37,3 +37,4 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - observe # the market trend
 - mark # my milestone
 - sigh
+- nn # neural net
