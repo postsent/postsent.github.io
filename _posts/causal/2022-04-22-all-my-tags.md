@@ -40,3 +40,4 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - nn # neural net
 - ideas
 - final # final exam
+- remorse
