@@ -14,3 +14,9 @@ Set up
 2. new category in g calendar
 3. new onenote section
 4. new local file folder
+
+# Study Music
+
+Serious mode - brain wave / no music
+Semi - Lofi
+Casual - others
