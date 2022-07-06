@@ -47,3 +47,4 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - life
 - quote
 - solution
+- reset
