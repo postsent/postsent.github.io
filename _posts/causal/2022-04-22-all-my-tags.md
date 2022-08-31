@@ -55,3 +55,4 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - youtube
 - record # where i use different tools to record my time
 - ppl
+- coffee
