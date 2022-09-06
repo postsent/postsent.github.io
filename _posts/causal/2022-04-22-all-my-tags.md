@@ -57,3 +57,6 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - ppl
 - coffee
 - productivity
+- passion
+- run
+- think
