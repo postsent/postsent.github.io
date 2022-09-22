@@ -16,7 +16,7 @@ Below are some questions that i may think about for the rest of my life so that 
 
 ## VR bird vision
 
-VR with controlable bionic bird that provide feedback in form of vision and sound + tactile feedback.
+VR connected with controlable bionic bird that provide feedback in form of vision and sound + tactile feedback.
 
 **Motivation**: How do other animals live? a day in life as a animal.
 
@@ -26,14 +26,13 @@ VR with controlable bionic bird that provide feedback in form of vision and soun
 Tree city plan.
 Genetic modified seed that could grow as big as a city size clusters + absorb sea / salted water / CO2 as input & output O2.
 
-**Motivation**: Climate change.
+**Motivation**: Climate change, reduce sea level, CO2 pollution.
 
 ## Brain modelling 
 
-Use graph / GNN as a base, different human senses as node e.g. cv, nlp, logical reasoning, could add prior knowledge with bayesian inference to model brain.
+Use graph / GNN as a base, different human senses as node e.g. cv, nlp, logical reasoning, could add prior knowledge using bayesian inference to model brain.
 
 **Motivation**: AGI.
-
 
 ## Project Ironman
 
@@ -46,6 +45,9 @@ Similar to Gravity Industries currrent development.
 
 Given so many digitalisation, why not going back?
 A theme park that allows no digital device, just live in the moment, live on the rock. Can wear mask and dress up whatever as disguise.
+
+**Motivation**: What is life like before smartphone.
+
 
 # App Ideas
 
