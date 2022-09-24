@@ -12,7 +12,32 @@ Hope this serves as a regularisation.
 
   
 **2022.9.22** not being productive recently so try to figure it out why and give myself some solutions.
-First sus is that I feel like these isnt much point to the meaning part, so I provide myself some problems that may wake me up in the morning and sleep early.
+First sus is that I feel like these isnt much point to the meaning part, so I provide myself some problems that may wake me up in the morning and sleep early. 
+added big questions & app ideas.
+
+# Time / Urgency
+
+> If you live everyday as if it is your last, 
+> then one day, you will be almost certainly right. - steve jobs
+
+> Knowing there is the end of the road, give you a sense of urgence - Joe rogan with lex.
+
+> To be or not to be - Kenneth Branagh HD (HAMLET): https://www.youtube.com/watch?v=SjuZq-8PUw0
+
+# Reset
+
+Reset with Music, cooking, shower during time not feel productive.
+
+Try make notes more interesting / visually pleasing way so that I am interested in revising / taking note too.
+
+# Advice from others
+
+## Karpathy
+https://cs.stanford.edu/people/karpathy/advice.html
+
+## Movie inspired
+terminator > transformer > avatar > iron man > ender's game > interstellar > ready player 1 > Alita
+
 
 # Big Questions
 
@@ -61,28 +86,3 @@ Event + location based speed friend / studying / travelling / shopping / etc.
 Add on features includes: degree of separation(anonymous), may allow wear mask if dont want show identity in real life
 
 **Motivation**: library partner.
-
-## 
-
-# Time / Urgency
-
-> If you live everyday as if it is your last, 
-> then one day, you will be almost certainly right. - steve jobs
-
-> Knowing there is the end of the road, give you a sense of urgence - Joe rogan with lex.
-
-> To be or not to be - Kenneth Branagh HD (HAMLET): https://www.youtube.com/watch?v=SjuZq-8PUw0
-
-# Reset
-
-Reset with Music, cooking, shower during time not feel productive.
-
-Try make notes more interesting / visually pleasing way so that I am interested in revising / taking note too.
-
-# Advice from others
-
-## Karpathy
-https://cs.stanford.edu/people/karpathy/advice.html
-
-## Movie inspired
-terminator > transformer > avatar > iron man > ender's game > interstellar > ready player 1 > Alita
