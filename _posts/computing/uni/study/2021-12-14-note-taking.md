@@ -18,26 +18,6 @@ excerpt: \#note taking \#note Based on my own setting
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## other
 
 
@@ -81,3 +61,10 @@ Use educated print statement if dont know
 
 ### Weava highlighter
 
+# Mind map vs list view
+
+Mind map, by my experiment is more suitable for < 100 nodes whereas list is more useful for e.g. 1k+ rows;
+
+# Organise folder
+
+An great example is when I organise my coursework, I initally collect by weeks; but i realise sometiems i dont know wherethe note belongs to and have to click multiple folders to get the desire lec; Now, I choose to collect them based on the e.g. file type i.e. all lec slides/lab sheet/tut belongs to a folder .its all about creating efficient and effective indexing 
