@@ -4,7 +4,7 @@ date: 2022-04-26
 last_modified_at: 2022-04-26
 categories:
   - Research
-excerpt: \#As title \#mine \#quote \#productivity
+excerpt: As title \#mine \#quote \#productivity
 ---
 
 **2022.4.26** Hope I will come back here frequently when I am not productive.  
@@ -86,3 +86,10 @@ Event + location based speed friend / studying / travelling / shopping / etc.
 Add on features includes: degree of separation(anonymous), may allow wear mask if dont want show identity in real life
 
 **Motivation**: library partner.
+
+# Inspirations
+
+SEAL Navy - Hell week
+Albert Einstein - 
+ "If i am the god, how would i solve the problem"
+ 
