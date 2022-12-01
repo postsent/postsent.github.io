@@ -7,6 +7,12 @@ tags:
 excerpt: \#tags
 ---
 
+# Recent
+
+- 
+
+# All
+
 Note that below tag is how I navigate when writing the content in vscode, basically just searach "#xxx" to goto the content I want to add.
 Basically try to create a standard API / mapping index / SEO for all my notes so I can navigate through quickly.
 

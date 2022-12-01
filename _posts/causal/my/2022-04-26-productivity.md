@@ -87,9 +87,3 @@ Add on features includes: degree of separation(anonymous), may allow wear mask i
 
 **Motivation**: library partner.
 
-# Inspirations
-
-SEAL Navy - Hell week
-Albert Einstein - 
- "If i am the god, how would i solve the problem"
- 
