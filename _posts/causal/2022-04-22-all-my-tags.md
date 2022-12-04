@@ -9,7 +9,8 @@ excerpt: \#tags
 
 # Recent
 
-- 
+- research-log
+- tuning # tune productivity by different factors e.g. setup or habit
 
 # All
 
@@ -69,3 +70,4 @@ Basically try to create a standard API / mapping index / SEO for all my notes so
 - food
 - health
 - weather
+- jokes
