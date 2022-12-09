@@ -4,7 +4,7 @@ date: 2022-04-26
 last_modified_at: 2022-04-26
 categories:
   - Research
-excerpt: As title \#mine \#quote \#productivity
+excerpt: As title \#mine \#productivity
 ---
 
 **2022.4.26** Hope I will come back here frequently when I am not productive.  
